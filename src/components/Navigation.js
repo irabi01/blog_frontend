@@ -31,11 +31,13 @@ export class Navigation extends Component {
                         <Link className="dropdown-item" to="#">Politics</Link>
                         </div>
                     </li>
+                    </ul >
+                    <ul className="mr-auto">
+                      <form className="form-inline my-2 my-lg-0">
+                      <input className="form-control mr-sm-2 input-sm" type="search" placeholder="Search" aria-label="Search"/>
+                      <button className="btn btn-outline-success btn-sm my-2 my-sm-0" type="submit">Search</button>
+                      </form>
                     </ul>
-                    <form className="form-inline my-2 my-lg-0">
-                    <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </div>
             </nav>
       </div>
