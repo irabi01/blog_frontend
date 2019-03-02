@@ -4,7 +4,6 @@ export class DisplayBloglist extends Component {
   render() {
     return (
       <div className="display_blog_container">
-        <div className="container">
             <div className="row">
                 <div className="col-md-12">
                     <img src={ this.props.articleList.image } className="img-fluid" alt="blog_image"/>
@@ -15,7 +14,6 @@ export class DisplayBloglist extends Component {
                     <p>{this.props.articleList.body}</p>
                 </div>
             </div>
-        </div>
       </div>
     )
   }

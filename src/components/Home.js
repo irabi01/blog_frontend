@@ -32,7 +32,7 @@ export class Home extends Component {
               </div>
               <div className="col-md-5">
                 <div className="blog_contents">
-                  <h1>Daily Data...</h1>
+                  <h1>Our daily news</h1>
                   <div className="all_data">
                     <Bloglist displaylist={this.state.bloglist}/>
                   </div>
