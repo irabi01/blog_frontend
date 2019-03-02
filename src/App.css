@@ -1,1 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+/* home_container style */
+.home_container{
+    padding: 100px 0px;
+}
+.home_container .other_issues{
+    text-align: center;
+    background: #c2bfbf;
+    border-radius: 10px;
+    padding: 50px 0px;
+}
+.home_container .other_issues h1{
+    text-align: center;
+    font-size: 18px;
+}
+.home_container .blog_contents{
+    text-align: center;
+    background: #c2bfbf;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+.home_container .blog_contents h1{
+    text-align: justify;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
