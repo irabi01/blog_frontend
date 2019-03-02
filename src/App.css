@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
+/* navigation style */
+.navigation{
+    background: #fff;
+}
+.navigation .navbar-brand{
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navigation ul li .nav-link{
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+
 /* home_container style */
 .home_container{
     padding: 100px 0px;
