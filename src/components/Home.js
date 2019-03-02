@@ -1,7 +1,25 @@
 import React, { Component } from 'react'
 import Bloglist from './Bloglist';
+import axios from "axios"
 
 export class Home extends Component {
+
+
+  // create a constructor
+  constructor(props){
+      super(props)
+      this.state = {
+          bloglist: [],
+      }
+  }
+
+
+  componentDidMount(){
+      axios.get('http://localhost:8000/lists/articles/').then(res =>{this.setState({bloglist:res.data})})
+    }
+
+
+
   render() {
     return (
       <div className="home_container">
@@ -16,7 +34,7 @@ export class Home extends Component {
                 <div className="blog_contents">
                   <h1>Daily Data...</h1>
                   <div className="all_data">
-                    <Bloglist/>
+                    <Bloglist displaylist={this.state.bloglist}/>
                   </div>
                 </div>
               </div>
