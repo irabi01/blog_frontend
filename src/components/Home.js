@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Bloglist from './Bloglist';
 
 export class Home extends Component {
   render() {
@@ -15,7 +16,7 @@ export class Home extends Component {
                 <div className="blog_contents">
                   <h1>Daily Data...</h1>
                   <div className="all_data">
-                    <p>Hello data</p>
+                    <Bloglist/>
                   </div>
                 </div>
               </div>
