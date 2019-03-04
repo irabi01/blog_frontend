@@ -27,6 +27,9 @@
     background: #c2bfbf;
     border-radius: 10px;
     padding: 50px 0px;
+    top: 60px;
+    position: sticky;
+    -webkit-position:sticky;
 }
 .home_container .other_issues h1{
     text-align: center;
@@ -51,6 +54,9 @@
     background: #c2bfbf;
     border-radius: 10px;
     padding: 50px 0px;
+    top: 60px;
+    position: sticky;
+    -webkit-position:sticky;
 }
 .home_container .advertisement h1{
     text-align: justify;
