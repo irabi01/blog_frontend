@@ -16,9 +16,6 @@ export class Navigation extends Component {
                     <li className="nav-item active">
                         <Link className="nav-link" to="/">Home</Link>
                     </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/notification">Notification</Link>
-                    </li>
                     <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Category
@@ -31,13 +28,15 @@ export class Navigation extends Component {
                         <Link className="dropdown-item" to="#">Politics</Link>
                         </div>
                     </li>
-                    </ul >
-                    <ul className="mr-auto">
-                      <form className="form-inline my-2 my-lg-0">
-                      <input className="form-control mr-sm-2 input-sm" type="search" placeholder="Search" aria-label="Search"/>
-                      <button className="btn btn-outline-success btn-sm my-2 my-sm-0" type="submit">Search</button>
+                    <li>
+                    <form className="form-inline my-2 my-lg-0">
+                      <input className="form-control mr-sm-2" type="search" placeholder="Search your keyword " aria-label="Search"/>
                       </form>
-                    </ul>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/notification">Notification  <i className="fa fa-bell"></i></Link>
+                    </li>
+                    </ul >
                 </div>
             </nav>
       </div>
