@@ -5,13 +5,9 @@ export class Register extends Component {
   render() {
     return (
       <div className="register_container">
+        <div className="container">
         <div className="row">
-            <div className="col-md-8">
-                <div className="images_part">
-                    <h1>Irabi kassim</h1>
-                </div>
-            </div>
-            <div className="col-md-4">
+            <div className="col-md-4 offset-md-4">
                 <div className="register_part">
                     <h1>Cheers</h1>
                     <form> 
@@ -35,6 +31,7 @@ export class Register extends Component {
             </div>
         </div>
       </div>
+    </div>
     )
   }
 }
