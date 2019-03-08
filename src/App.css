@@ -37,7 +37,7 @@
     background: #c2bfbf;
     border-radius: 10px;
     padding: 50px 0px;
-    top: 60px;
+    top: 100px;
     position: sticky;
     -webkit-position:sticky;
 }
@@ -75,6 +75,13 @@
     color: #000;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+}
+.home_container .footer_part{
+    text-align: center;
+    padding: 50px 0px;
+    top: 200px;
+    position: sticky;
+    -webkit-position:sticky;
 }
 
 
@@ -176,4 +183,19 @@
 }
 .go_to_login p .link{
     text-decoration: none;
+}
+
+
+
+/* footer page style */
+.footer p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.footer p span{
+    /* text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px; */
 }
