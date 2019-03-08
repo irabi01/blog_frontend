@@ -134,6 +134,12 @@
     background: #3399ff;
     color: #fff;
 }
+.login_part form p{
+    text-align: center;
+}
+.login_part form p .link{
+    text-decoration: none;
+}
 .go_to_sign_up{
     background: #fff;
     border: 1px solid #c2bfbf;
