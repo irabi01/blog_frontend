@@ -21,6 +21,9 @@ export class Login extends Component {
                                 </div>
                             </form>
                         </div>
+                        <div className="go_to_sign_up">
+                            <p>Don't have an account? Sign up</p>
+                        </div>
                     </div>
                 </div>
             </div>
