@@ -17,7 +17,7 @@ class App extends Component {
           <Switch>
             <Route path='/' exact component={Home}/>
             <Route path='/notification' component={Notification}/>
-            <Route path='/auth/login' component={Login}/>
+            <Route path='/account/auth/login' component={Login}/>
             <Route path='/account/auth/register' component={Register}/>
             <Route path='/account/password/reset' component={ForgetPassword}/>
           </Switch>
