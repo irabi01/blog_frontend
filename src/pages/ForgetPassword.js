@@ -10,6 +10,7 @@ export class ForgetPassword extends Component {
                 <div className="col-md-4 offset-md-4">
                 <div className="forgetpassword_part">
                     <h1>Cheers</h1>
+                    <p>Enter your e-mail and we'll send you a link to get back into your account </p>
                     <form> 
                         <div className="form-group">
                             <input type="email" name="email" id="email" placeholder="Enter e-mail"/>
@@ -20,7 +21,7 @@ export class ForgetPassword extends Component {
                     </form>
                 </div>
                 <div className="go_to_login">
-                    <p>Have an account? <Link to="/auth/login" className="link">Log in</Link> </p>
+                    <p><Link to="/auth/login" className="link">Back to Login</Link> </p>
                 </div>
                 </div>
             </div>
