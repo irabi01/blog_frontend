@@ -21,7 +21,7 @@ export class ForgetPassword extends Component {
                     </form>
                 </div>
                 <div className="go_to_login">
-                    <p><Link to="/auth/login" className="link">Back to Login</Link> </p>
+                    <p><Link to="/account/auth/login" className="link">Back to Login</Link> </p>
                 </div>
                 </div>
             </div>
