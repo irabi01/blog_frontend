@@ -11,10 +11,10 @@ export class Login extends Component {
                             <h1>Cheers</h1>
                             <form> 
                                 <div className="form-group">
-                                    <input name="username" id="username" placeholder="Phone number, username, or email"/>
+                                    <input type="text" name="username" id="username" placeholder="Phone number, username, or email"/>
                                 </div>
                                 <div className="form-group">
-                                    <input name="password" id="password" placeholder="Password"/>
+                                    <input type="password" name="password" id="password" placeholder="Password"/>
                                 </div>
                                 <div className="form-group">
                                     <button>Log in</button>
