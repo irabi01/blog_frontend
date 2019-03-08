@@ -118,3 +118,13 @@
     background: #3399ff;
     color: #fff;
 }
+.go_to_sign_up{
+    background: #fff;
+    border: 1px solid #c2bfbf;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.go_to_sign_up p a{
+    text-decoration: none;
+}
