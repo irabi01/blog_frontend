@@ -39,7 +39,7 @@ export class Navigation extends Component {
                     </ul >
                     <ul className="navbar-nav ml-auto">
                       <li className="nav-item">
-                          <Link className="nav-link" to="/login">Login  <i className="fa fa-login"></i></Link>
+                          <Link className="nav-link" to="/auth/login">Login  <i className="fa fa-login"></i></Link>
                       </li>
                     </ul>
                 </div>
