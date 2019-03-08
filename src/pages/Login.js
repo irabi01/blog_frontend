@@ -23,7 +23,7 @@ export class Login extends Component {
                             </form>
                         </div>
                         <div className="go_to_sign_up">
-                            <p>Don't have an account? <Link to="">Sign up</Link> </p>
+                            <p>Don't have an account? <Link to="" className="link">Sign up</Link> </p>
                         </div>
                     </div>
                 </div>
