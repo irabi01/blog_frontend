@@ -20,7 +20,7 @@ export class Login extends Component {
                                 <div className="form-group">
                                     <button>Log in</button>
                                 </div>
-                                <p><Link to="/forgot_password" className="link">Forgot password?</Link></p>
+                                <p><Link to="/account/password/reset" className="link">Forgot password?</Link></p>
                             </form>
                         </div>
                         <div className="go_to_sign_up">
