@@ -30,7 +30,7 @@ export class Navigation extends Component {
                     </li>
                     <li>
                     <form className="form-inline my-2 my-lg-0">
-                      <input className="mr-sm-2" type="search" placeholder="Search your keyword " aria-label="Search"/>
+                      <input className="mr-sm-2 search_form" type="search" placeholder="Search your keyword " aria-label="Search"/>
                       </form>
                     </li>
                     <li className="nav-item">
