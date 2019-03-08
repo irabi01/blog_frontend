@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Bloglist from './Bloglist';
+import Footer from './Footer'
 import axios from "axios"
 
 export class Home extends Component {
@@ -41,6 +42,9 @@ export class Home extends Component {
               <div className="col-md-3">
                 <div className="advertisement">
                   <h1>Display Advertisement</h1>
+                </div>
+                <div className="footer_part">
+                  <Footer/>
                 </div>
               </div>
             </div>
