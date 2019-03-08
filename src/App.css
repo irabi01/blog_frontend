@@ -137,7 +137,11 @@
     border: 1px solid #c2bfbf;
     padding: 70px 20px;
 }
-
+.register_part h1{
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 70px;
+}
 .register_part form input{
     width: 100%;
     height: 50px;
