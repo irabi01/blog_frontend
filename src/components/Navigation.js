@@ -37,6 +37,11 @@ export class Navigation extends Component {
                         <Link className="nav-link" to="/notification">Notification  <i className="fa fa-bell"></i></Link>
                     </li>
                     </ul >
+                    <ul className="navbar-nav ml-auto">
+                      <li className="nav-item">
+                          <Link className="nav-link" to="/login">Login  <i className="fa fa-login"></i></Link>
+                      </li>
+                    </ul>
                 </div>
             </nav>
       </div>

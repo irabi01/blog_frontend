@@ -54,7 +54,7 @@
     background: #c2bfbf;
     border-radius: 10px;
     padding: 50px 0px;
-    top: 60px;
+    top: 100px;
     position: sticky;
     -webkit-position:sticky;
 }
@@ -85,4 +85,5 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding-left: 10px;
+    padding-right: 10px;
 }
