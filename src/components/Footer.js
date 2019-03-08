@@ -7,7 +7,7 @@ export class Footer extends Component {
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                    <p><i className="fa fa-copyright"></i> 2019. All rights reserved. CheersApp</p>
+                <p><i className="fa fa-copyright"></i> {(new Date().getFullYear())} <span>Cheers</span>. All rights reserved</p>
                 </div>
             </div>
         </div>
