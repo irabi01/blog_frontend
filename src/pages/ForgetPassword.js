@@ -8,11 +8,11 @@ export class ForgetPassword extends Component {
         <div className="container">
             <div className="row">
                 <div className="col-md-4 offset-md-4">
-                <div className="login_part">
+                <div className="forgetpassword_part">
                     <h1>Cheers</h1>
                     <form> 
                         <div className="form-group">
-                            <input type="email" name="email" id="email" placeholder="Enter email"/>
+                            <input type="email" name="email" id="email" placeholder="Enter e-mail"/>
                         </div>
                         <div className="form-group">
                             <button>send reset password link</button>
