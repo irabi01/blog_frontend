@@ -41,7 +41,11 @@ export class Navigation extends Component {
                       <li className="nav-item">
                           <Link className="nav-link" to="/auth/login">Login  <i className="fa fa-login"></i></Link>
                       </li>
+                      <li className="nav-item">
+                          <Link className="nav-link" to="/auth/register">Register  <i className="fa fa-login"></i></Link>
+                      </li>
                     </ul>
+                    
                 </div>
             </nav>
       </div>
