@@ -15,7 +15,7 @@ export class ForgetPassword extends Component {
                             <input type="email" name="email" id="email" placeholder="Enter e-mail"/>
                         </div>
                         <div className="form-group">
-                            <button>send reset password link</button>
+                            <button>Send reset password link</button>
                         </div>
                     </form>
                 </div>
