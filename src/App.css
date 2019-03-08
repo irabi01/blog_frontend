@@ -9,7 +9,8 @@
 .navigation .navbar-brand{
     color: #000;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Nanum Pen Script', cursive;
 }
 .navigation ul li .nav-link{
     color: #000;
