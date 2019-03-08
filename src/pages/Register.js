@@ -21,6 +21,9 @@ export class Register extends Component {
                             <input type="password" name="password" id="password" placeholder="Password"/>
                         </div>
                         <div className="form-group">
+                            <input type="password" name="c_password" id="c_password" placeholder="Confirm Password"/>
+                        </div>
+                        <div className="form-group">
                             <button>Sign up</button>
                         </div>
                     </form>
