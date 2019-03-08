@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Notification from './pages/Notification'
 import Login from './pages/Login';
 import Register from './pages/Register';
+import ForgetPassword from './pages/ForgetPassword';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path='/notification' component={Notification}/>
             <Route path='/auth/login' component={Login}/>
             <Route path='/auth/register' component={Register}/>
+            <Route path='/forgot_password' component={ForgetPassword}/>
           </Switch>
       </div>
        </Router>
