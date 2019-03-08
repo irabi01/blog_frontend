@@ -187,6 +187,47 @@
 
 
 
+
+/* forget passwpord page style */
+.forgetpassword_part{
+    background: #fff;
+    border: 1px solid #c2bfbf;
+    padding: 70px 20px;
+}
+.forgetpassword_part h1{
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 70px;
+}
+.forgetpassword_part form input{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #c2bfbf;
+    outline: 0;
+}
+.forgetpassword_part form button{
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background: #3399ff;
+    color: #fff;
+}
+.go_to_login{
+    background: #fff;
+    border: 1px solid #c2bfbf;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.go_to_login p .link{
+    text-decoration: none;
+}
+
+
+
 /* footer page style */
 .footer p{
     text-align: center;
