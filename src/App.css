@@ -125,6 +125,6 @@
     text-align: center;
     margin-top: 10px;
 }
-.go_to_sign_up p a{
+.go_to_sign_up p .link{
     text-decoration: none;
 }
