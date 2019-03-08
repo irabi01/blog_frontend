@@ -6,7 +6,7 @@ export class Login extends Component {
       <div className="login_container">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 offset-md-3">
                         <div className="login_part">
                             <h1>Cheers</h1>
                             <form> 
