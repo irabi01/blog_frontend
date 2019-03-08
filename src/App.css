@@ -101,7 +101,8 @@
     height: 50px;
     padding-left: 10px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #c2bfbf;
+    outline: 0;
 }
 .login_part form button{
     width: 100%;
