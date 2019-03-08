@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Home from './components/Home'
 import Notification from './pages/Notification'
 import Login from './pages/Login';
-import Register from './pages/register';
+import Register from './pages/Register';
 
 class App extends Component {
   render() {

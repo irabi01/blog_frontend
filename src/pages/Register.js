@@ -30,7 +30,7 @@ export class Register extends Component {
                     </form>
                 </div>
                 <div className="go_to_login">
-                    <p>Have an account? <Link to="" className="link">Log in</Link> </p>
+                    <p>Have an account? <Link to="/auth/login" className="link">Log in</Link> </p>
                 </div>
             </div>
         </div>
