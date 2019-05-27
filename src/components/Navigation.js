@@ -21,11 +21,15 @@ export class Navigation extends Component {
                         Category
                         </Link>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <Link className="dropdown-item" to="#">Sports</Link>
+                        <Link className="dropdown-item" to="#">Programming</Link>
                         <div className="dropdown-divider"></div>
-                        <Link className="dropdown-item" to="#">Education</Link>
+                        <Link className="dropdown-item" to="#">Marketing</Link>
                         <div className="dropdown-divider"></div>
-                        <Link className="dropdown-item" to="#">Politics</Link>
+                        <Link className="dropdown-item" to="#">Data analysis</Link>
+                        <div className="dropdown-divider"></div>
+                        <Link className="dropdown-item" to="#">Administration</Link>
+                        <div className="dropdown-divider"></div>
+                        <Link className="dropdown-item" to="#">Pharmacy</Link>
                         </div>
                     </li>
                     <li>

@@ -1,4 +1,8 @@
 import React, { Component } from 'react'
+// import TextTruncate from 'react-text-truncate'
+// import LinesEllipsis from 'react-lines-ellipsis'
+// import { Link } from 'react'
+import ReadMoreReact from 'read-more-react'
 
 export class DisplayBloglist extends Component {
   render() {
@@ -11,7 +15,33 @@ export class DisplayBloglist extends Component {
                     <hr/>
                     <p>{this.props.articleList.date}</p>
                     <hr/>
-                    <p>{this.props.articleList.body}</p>
+                    {/* <p>{this.props.articleList.body}</p> */}
+                    {/* <p>
+                      <TextTruncate
+                        line = {1}
+                        truncateText = " ... "
+                        text = {this.props.articleList.body}
+                        // textTruncateChild = {<Link to="#">Read more</Link>}
+                      />
+                    </p>  */}
+                    {/* <p>
+                    <LinesEllipsis
+                      text={this.props.articleList.body}
+                      maxLine='3'
+                      ellipsis='...'
+                      trimRight
+                      basedOn='letters'
+                    />
+                    </p> */}
+                    <p>
+                      <ReadMoreReact
+                        text  = { this.props.articleList.body }
+                        min   = { 80 }
+                        ideal = { 100 }
+                        max   = { 200 }
+                        // readMoreText ={<Link to="#">(More-Details)</Link>}
+                      />
+                    </p>
                 </div>
             </div>
       </div>
