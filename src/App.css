@@ -26,6 +26,18 @@
     outline: 0;
     font-size: 13px;
 }
+.nofication_menu{
+    width: 400px;
+    border-radius: 0px;
+    border: 1px solid #c2bfbf;
+}
+.nofication_menu .nofication_contents .media img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
 
 
 /* home_container style */
@@ -44,6 +56,14 @@
 .home_container .other_issues h1{
     text-align: center;
     font-size: 18px;
+}
+.home_container .other_issues ul{
+    list-style: none;
+    text-align: left;
+    line-height: 40px;
+}
+.home_container .other_issues ul li{
+    font-size: 14px;
 }
 .home_container .blog_contents{
     text-align: center;
@@ -104,7 +124,14 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-
+.display_blog_container .read-more-button{
+    font-family: 'Montserrat', sans-serif;
+    color: #3399ff;
+    text-transform: capitalize;
+}
+.display_blog_container .read-more-button:hover{
+    cursor: pointer;
+}
 
 
 /* login page style */
@@ -235,6 +262,58 @@
 .go_to_login p .link{
     text-decoration: none;
 }
+
+
+
+
+
+/* notification_container */
+.notification_container{
+    padding: 100px 0px;
+}
+.notification_container .notification_contents{
+    background: #c2bfbf;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.notification_container .notification_contents h1{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.all_notification{
+    background: #c2bfbf;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.all_notification .image_part{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: 45%;
+    /* border:1px solid #eee; */
+}
+.all_notification .image_part img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border:1px solid #eee;
+    margin-top: -40px;
+}
+.all_notification .other_contents_part{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.all_notification .other_contents_part h1{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.all_notification .other_contents_part span{
+    font-size: 14px;
+}
+
+
 
 
 

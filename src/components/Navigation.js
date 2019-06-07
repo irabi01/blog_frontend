@@ -21,16 +21,25 @@ export class Navigation extends Component {
                         Category
                         </Link>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <Link className="dropdown-item" to="#">Programming</Link>
+                        <Link className="dropdown-item" to="#">All Languages</Link>
                         <div className="dropdown-divider"></div>
-                        <Link className="dropdown-item" to="#">Marketing</Link>
+                        <Link className="dropdown-item" to="#">Python</Link>
                         <div className="dropdown-divider"></div>
-                        <Link className="dropdown-item" to="#">Data analysis</Link>
+                        <Link className="dropdown-item" to="#">ReactJs</Link>
                         <div className="dropdown-divider"></div>
-                        <Link className="dropdown-item" to="#">Administration</Link>
+                        <Link className="dropdown-item" to="#">AngularJs</Link>
                         <div className="dropdown-divider"></div>
-                        <Link className="dropdown-item" to="#">Pharmacy</Link>
+                        <Link className="dropdown-item" to="#">NodeJs</Link>
+                        <div className="dropdown-divider"></div>
+                        <Link className="dropdown-item" to="#">Laravel</Link>
+                        <div className="dropdown-divider"></div>
+                        <Link className="dropdown-item" to="#">SQL</Link>
+                        <div className="dropdown-divider"></div>
+                        <Link className="dropdown-item" to="#">MongoDB</Link>
+                        <div className="dropdown-divider"></div>
+                        <Link className="dropdown-item" to="#">PostgreSQL</Link>
                         </div>
+                        
                     </li>
                     <li>
                     <form className="form-inline my-2 my-lg-0">
@@ -39,6 +48,73 @@ export class Navigation extends Component {
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/notification">Notification  <i className="fa fa-bell"></i></Link>
+                    </li>
+                    <li className="nav-item dropdown">
+                        <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Notification2
+                        </Link>
+                        <div className="nofication_menu dropdown-menu" aria-labelledby="navbarDropdown">
+                          <div className="container">
+                            <div className="row">
+                              <div className="col-md-12">
+                                <div className="nofication_contents">
+
+
+                                <Link to="/notification">
+                                  <div className="media">
+                                    <img src={require('../images/bg1.jpg')} className="mr-3 img-fluid" alt="nofication"/>
+                                    <div className="media-body">
+                                      <p className="mt-0">hello there Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa</p>
+                                    </div>
+                                  </div>
+                                </Link>
+                                <div className="dropdown-divider"></div>
+                                <Link to="/notification">
+                                  <div className="media">
+                                    <img src={require('../images/bg1.jpg')} className="mr-3 img-fluid" alt="nofication"/>
+                                    <div className="media-body">
+                                      <p className="mt-0">hello there Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa</p>
+                                    </div>
+                                  </div>
+                                </Link>
+                                <div className="dropdown-divider"></div>
+                                <Link to="/notification">
+                                  <div className="media">
+                                    <img src={require('../images/bg1.jpg')} className="mr-3 img-fluid" alt="nofication"/>
+                                    <div className="media-body">
+                                      <p className="mt-0">hello there Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa</p>
+                                    </div>
+                                  </div>
+                                </Link>
+                                <div className="dropdown-divider"></div>
+                                <Link to="/notification">
+                                  <div className="media">
+                                    <img src={require('../images/bg1.jpg')} className="mr-3 img-fluid" alt="nofication"/>
+                                    <div className="media-body">
+                                      <p className="mt-0">hello there Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa</p>
+                                    </div>
+                                  </div>
+                                </Link>
+                                <div className="dropdown-divider"></div>
+                                
+
+
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        {/* <Link className="dropdown-item" to="#">All Languages</Link>
+                        <div className="dropdown-divider"></div>
+                        <Link className="dropdown-item" to="#">Python</Link>
+                        <div className="dropdown-divider"></div>
+                        <Link className="dropdown-item" to="#">ReactJs</Link>
+                        <div className="dropdown-divider"></div>
+                        <Link className="dropdown-item" to="#">AngularJs</Link>
+                        <div className="dropdown-divider"></div>
+                        <Link className="dropdown-item" to="#">NodeJs</Link> */}
+                        </div>
+                        
                     </li>
                     </ul >
                     <ul className="navbar-nav ml-auto">

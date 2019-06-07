@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 // import LinesEllipsis from 'react-lines-ellipsis'
 // import { Link } from 'react'
 import ReadMoreReact from 'read-more-react'
+import Moment from 'react-moment';
+import 'moment-timezone';
 
 export class DisplayBloglist extends Component {
   render() {
@@ -13,7 +15,7 @@ export class DisplayBloglist extends Component {
                     <img src={ this.props.articleList.image } className="img-fluid" alt="blog_image"/>
                     <h1>{this.props.articleList.title}</h1>
                     <hr/>
-                    <p>{this.props.articleList.date}</p>
+                    <p><Moment fromNow interval={30000}>{this.props.articleList.date}</Moment></p>
                     <hr/>
                     {/* <p>{this.props.articleList.body}</p> */}
                     {/* <p>

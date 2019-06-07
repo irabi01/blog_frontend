@@ -29,6 +29,17 @@ export class Home extends Component {
               <div className="col-md-4">
                 <div className="other_issues">
                   <h1>Display Something here</h1>
+                  <ul>
+                    <li>All Languages</li>
+                    <li>Python</li>
+                    <li>ReactJs</li>
+                    <li>AngularJs</li>
+                    <li>NodeJs</li>
+                    <li>Laravel</li>
+                    <li>SQL</li>
+                    <li>MongoDB</li>
+                    <li>PostgreSQL</li>
+                  </ul>
                 </div>
               </div>
               <div className="col-md-5">
