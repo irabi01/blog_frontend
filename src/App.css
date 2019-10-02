@@ -129,6 +129,12 @@
     color: #3399ff;
     text-transform: capitalize;
 }
+.display_blog_container .readMoreText{
+    font-family: 'Montserrat', sans-serif;
+    /* color: #3399ff; */
+    display: block;
+    text-transform: capitalize;
+}
 .display_blog_container .read-more-button:hover{
     cursor: pointer;
 }

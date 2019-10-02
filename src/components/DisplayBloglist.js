@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 // import TextTruncate from 'react-text-truncate'
 // import LinesEllipsis from 'react-lines-ellipsis'
 // import { Link } from 'react'
-import ReadMoreReact from 'read-more-react'
+// import ReadMoreReact from 'read-more-react'
+import ReadMoreAndLess from 'react-read-more-less';
 import Moment from 'react-moment';
 import 'moment-timezone';
 
@@ -36,13 +37,22 @@ export class DisplayBloglist extends Component {
                     />
                     </p> */}
                     <p>
-                      <ReadMoreReact
+                      {/* <ReadMoreReact
                         text  = { this.props.articleList.body }
                         min   = { 80 }
                         ideal = { 100 }
                         max   = { 200 }
                         // readMoreText ={<Link to="#">(More-Details)</Link>}
-                      />
+                      /> */}
+                      <ReadMoreAndLess
+                          ref={this.ReadMore}
+                          className="read-more-content"
+                          charLimit={200}
+                          readMoreText="Read more"
+                          readLessText="Read less"
+                      >
+                          {this.props.articleList.body}
+                      </ReadMoreAndLess>
                     </p>
                 </div>
             </div>
